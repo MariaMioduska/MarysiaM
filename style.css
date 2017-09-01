@@ -1,0 +1,71 @@
+h1{
+    height: 50px;
+    padding: 20px 0;
+    margin: 50px;
+    font-family:sans-serif;
+    font-size:50px;
+    text-align: center;
+}
+
+.menu{
+    background-color: #ae1f23 ;
+    width: 100%;
+    height:auto;
+    color: #ffffff ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position:fixed;
+    left: 0px;
+    top:0px;
+    text-align: center;
+
+
+}
+.menu li{
+    display: inline;
+    color: #ffffff;
+    font-size: 20px;
+}
+.menu li a{
+    color: #ffffff;
+}
+
+.logo {
+    text-align: center;
+    padding-top: 40px;
+
+
+}
+
+.logo img{
+    max-width: 500px;
+
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+.flex-box{
+    display: flex;
+    justify-content: space-between;
+}
+.main{
+    max-width:75%;
+}
+
+aside{
+    max-width: 25%;
+
+}
+footer{
+    clear: both;
+}
+
+.baner{
+    background: url(images/main-bg.jpg) no-repeat center;
+    background-size: cover;
+    padding: 40px;
+    color: #fff;
+    text-align: center;
+}
